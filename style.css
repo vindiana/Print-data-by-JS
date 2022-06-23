@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    }
+    
+    .parent{
+        display:flex;
+        box-sizing: border-box;
+        justify-content: center;
+        background-image: url('../image/picture1.png');
+        background-color: #ff6080;
+        width: 100%;
+        height: 100vh;
+        margin: 0 auto;
+       
+    }
+    
+    .container{
+        width: 50% ;
+        display:block;
+        margin: auto;
+        vertical-align: middle;
+        /* text-align: center; */
+    }
+    
+    .d-flex{
+        display: flex !important;
+        justify-content: center;
+    }
+     
+
+     
+    .cardbox{
+        margin-top: 50px;
+        margin-bottom: 20px;
+        display:flex;
+        justify-content: center;
+        background-color: white;
+        border-radius:10px ;
+        padding: 20px;
+        box-shadow:2px 4px  #e0e0e0 ;
+        width:60% ;
+        /* min-height: 500px;    */
+         /* text-align: center; */   
+    }
+    .w-100{
+        width: 100% !important;
+    }
+    .margin-1{
+        /* font-size: 1.8em; */
+        margin: 10px 20px;
+    }
+    
+    .margin-1 input{
+        padding: 10px;
+        border: 1px solid #e0e0e0;
+        width: 100%;
+        height: 2em;
+    }
+    .contact-btn{
+    background-color:rgb(0, 255, 180) ;
+    color: white;
+    padding:10px 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    }
+    btn-style:hover{
+        background-color: transparent !important;
+    }
+    
+    .box2{
+    background-color:rgb(113, 27, 227);
+    color: white;
+    height: 2em;
+    border-radius: 5px;
+    width:65%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    }
+    
+    @media (max-width:375px) {
+        .parent {
+          flex-direction: column;
+        }
+        .container{
+            width: 100%; 
+        }
+      }
+      .box1{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        color: white;
+    }
+    .f-1{
+        font-size: 2.5em;
+    }
+    a {
+        display:block;
+        font-weight:bold;
+        color:#ffffff;
+        background-color: #0006cc;
+        text-align:center;
+        padding: 4px;
+        width: 200px;
+        justify-content: center;
+    }
+    a:hover{
+        background-color: #b3b3b3;
+        color: #0006cc;
+    }
+    
+    div{
+        display:inline-block;
+        width: 45%;
+    }
+    ol{
+        list-style-type: upper-roman;
+    }
+    ul{
+        list-style-type: square;
+    }
